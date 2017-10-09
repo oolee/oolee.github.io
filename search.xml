@@ -3,8 +3,62 @@
   
     
     <entry>
+      <title><![CDATA[markdown-入门]]></title>
+      <url>/start/start-2/markdown/</url>
+      <content type="html"><![CDATA[<h1 id="什么是markdown"><a href="#什么是markdown" class="headerlink" title="什么是markdown?"></a>什么是markdown?</h1><h2 id="一种非常简单标记语言-让你能专注于写作内容-而非格式"><a href="#一种非常简单标记语言-让你能专注于写作内容-而非格式" class="headerlink" title="一种非常简单标记语言,让你能专注于写作内容,而非格式."></a>一种非常简单标记语言,让你能专注于写作内容,而非格式.</h2><p><img src="markdown.jpg" alt="markdown"></p>
+<h1 id="简单语法"><a href="#简单语法" class="headerlink" title="简单语法:"></a>简单语法:</h1><h2 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h2><hr>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="section"># 一级标题</span></div><div class="line"><span class="section">## 二级标题</span></div><div class="line"><span class="section">### 三级标题</span></div><div class="line">...</div></pre></td></tr></table></figure>
+<p> example:</p>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h2 id="2-链接和图片"><a href="#2-链接和图片" class="headerlink" title="2.链接和图片"></a>2.链接和图片</h2><hr>
+ <figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">link:[<span class="string">linktext</span>](<span class="link">url</span>)</div><div class="line">image:![<span class="string">alerttext</span>](<span class="link">url</span>)</div></pre></td></tr></table></figure>
+<p> example:<br> 链接:<a href="http://www.baidu.com" target="_blank" rel="external">百度</a> 图片:如上图.</p>
+<h2 id="3-分割线-3个"><a href="#3-分割线-3个" class="headerlink" title="3.分割线:3个*"></a>3.分割线:3个<em>*</em></h2><hr>
+<h2 id="4-加粗和斜体"><a href="#4-加粗和斜体" class="headerlink" title="4.加粗和斜体"></a>4.加粗和斜体</h2><hr>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">*斜体* </div><div class="line">**加粗**</div><div class="line">***斜体加粗***</div></pre></td></tr></table></figure>
+<p>example:<br><em>这里是斜体文字</em><br><strong>这里是加粗文字</strong><br><strong><em>斜体加粗</em></strong></p>
+<h2 id="5-表格"><a href="#5-表格" class="headerlink" title="5.表格"></a>5.表格</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">| Tables        | Are           | Cool  |</div><div class="line">| ------------- |:-------------:| -----:|</div><div class="line">| col 3 is      | right-aligned | $1600 |</div><div class="line">| col 2 is      | centered      |   $12 |</div><div class="line">| zebra stripes | are neat      |    $1 |</div></pre></td></tr></table></figure>
+<p>example:</p>
+<table>
+<thead>
+<tr>
+<th>Tables</th>
+<th style="text-align:center">Are</th>
+<th style="text-align:right">Cool</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>col 3 is</td>
+<td style="text-align:center">right-aligned</td>
+<td style="text-align:right">$1600</td>
+</tr>
+<tr>
+<td>col 2 is</td>
+<td style="text-align:center">centered</td>
+<td style="text-align:right">$12</td>
+</tr>
+<tr>
+<td>zebra stripes</td>
+<td style="text-align:center">are neat</td>
+<td style="text-align:right">$1</td>
+</tr>
+</tbody>
+</table>
+<p>更多访问 <a href="http://wowubuntu.com/markdown/" target="_blank" rel="external">这里</a> 查看…</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 开始 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Hello World]]></title>
-      <url>/start/1/hello-world/</url>
+      <url>/start/start-2/hello-world/</url>
       <content type="html"><![CDATA[<p>欢迎使用<a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! 这是我的第一篇博客. 查看 <a href="https://hexo.io/docs/" target="_blank" rel="external">文档</a> 获取更多信息. 使用过程中发现任何问题,你可以从<a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a>获取帮助,或者通过 <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>提问.</p>
 <h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2><h3 id="创建一篇新的博客"><a href="#创建一篇新的博客" class="headerlink" title="创建一篇新的博客"></a>创建一篇新的博客</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>更多信息: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
